@@ -283,7 +283,7 @@ import autoTable from 'jspdf-autotable';
             var temp1 = [dates.date, dates.first_In, dates.first_out, dates.second_In, dates.second_out, dates.sign, dates.name];
             rows1.push(temp1);
              doc.text("Name : " + dates.name, 14, 35);
-             doc.text("Phone : " + dates.name, 14, 35);
+           
              doc.text("Individual Monthly Attendance", 65, 20)
         });        
 
