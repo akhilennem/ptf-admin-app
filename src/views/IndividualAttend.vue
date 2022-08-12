@@ -279,8 +279,7 @@ import autoTable from 'jspdf-autotable';
 
        var dates = this.dates;
        dates.forEach(dates => {   
-        console.log(temp1[0])  
-        console.log("dd") 
+        
             var temp1 = [dates.date, dates.first_In, dates.first_out, dates.second_In, dates.second_out, dates.sign, dates.name];
             rows1.push(temp1);
              doc.text("Name : " + dates.name, 14, 35);
